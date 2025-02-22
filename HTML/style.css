@@ -1,0 +1,41 @@
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 50px;
+}
+
+#estilos {
+    border: 5px solid red;
+    border-radius: 5%;
+    background-color: black;
+    color: #FFF;
+    line-height: 50px;
+}
+
+#flexbox .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+
+#flexbox .container .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#grid .grid-container{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.caixa {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
