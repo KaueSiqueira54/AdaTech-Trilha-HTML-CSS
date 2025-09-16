@@ -29,9 +29,9 @@ console.log(maioresDeIdade);
 
 console.clear();
 
-//some(): Verifica se algum elemento do array torna verdadeira uma determinada condição retornada pela função
+//some(): Verifica se algum elemento do array torna verdadeira uma determinada condição retornada pela função, enquando o every verifica todos para ser true, aqui somente um para ser verdadeiro
 
-const numeros2 = [-1, -5, -6, -9];
+const numeros2 = [-1, -5, 8, -9];
 
 const retorno = numeros2.some((numero) => numero > 0);
 
@@ -39,6 +39,5 @@ console.log(retorno);
 
 //Se uma das condições for satisfeita, retorna true, mesmo que todas as outras sejam falsas, basta uma ser verdadeira para ser true
 
-console.clear()
 
 

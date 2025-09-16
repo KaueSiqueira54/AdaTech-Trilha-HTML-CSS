@@ -5,7 +5,9 @@
 
 const valores = [10, 20, 30, 34, 50, 24, 58, 65, 36, 100];
 
-const pares = valores.filter((valor) => valor % 2 === 0);
+const pares = valores.filter((valorPar) => {
+  return valorPar % 2 === 1;
+});
 
 console.log(pares);
 
@@ -21,6 +23,7 @@ const alunos = [
 const calc = alunos.filter((aluno) => aluno.media >= 5);
 
 console.log(calc);
+console.clear();
 
 //Exemplo 02
 
@@ -32,7 +35,8 @@ const produtos = [
   { nome: "Chocolates", preco: 59, tipo: "Comida" },
 ];
 
-const tipos = produtos.filter((tipoDeProduto => tipoDeProduto.preco > 10 && tipoDeProduto.tipo !== 'Comida'))
+const tipos = produtos.filter(
+  (tipoDeProduto) => tipoDeProduto.preco > 10 && tipoDeProduto.tipo !== "Comida"
+);
 
-console.log(tipos)
-
+console.log(tipos);

@@ -1,3 +1,4 @@
 
 Nome: Kaue
 idade: 20
+altura: 1.56
